@@ -11,10 +11,7 @@
 .mb-20 {
     margin-bottom: 20px;
 }
-.mr-2 {
-    margin-right: 2%;
-}
-.float-left {
+.float {
     float: left;
 }
 .clearfix::after {
@@ -33,7 +30,7 @@
     height: 300px;
     background-color: #e1d67a;
 }
-main.debug {
+.debug main{
     height: 500px;
     background-color: #0087ff;
 }
@@ -53,7 +50,7 @@ main.debug {
     height: 410px;
     background-color: #abcfe7;
 }
-footer.debug {
+.debug footer{
     background-color: #8900fe;
 }
 
@@ -70,6 +67,7 @@ header {
 }
 .main-content {
     width: 46%;
+    margin: 0 2%;
 }
 .col-right {
     width: 25%;
